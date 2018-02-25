@@ -14,7 +14,7 @@ public class main {
         readFile();
         System.out.println(heroes);
         for (Hero p : heroes){
-            p.päästa(100); //Kõik väljad tulevad 95 päästetud, sest Superkangelasel pole sisestatud osavust.
+            p.päästa(100); //Päästetud inimesi: 95.0
         }
     }
 
